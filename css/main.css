@@ -102,25 +102,24 @@ p.top {
 #one {
   position:relative;
   margin:0;
-  background-image:url("../assets/iphonehero1.png");
+  background-image:url("../assets/ipadhero1.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
   padding:2%;
   background-color:#FBFBFB;
-  height:1000px;
+  height:970px;
 }
 
 #onetextwrap {
   position:relative;
   width:57%;
+  
 }
 
 #onetextwrapleft {
-  float:left;
   width:17%;
-  margin-top:34%;
-  margin-left:45px;
+ 
 }
 
 #onetextwrapright {
@@ -137,7 +136,7 @@ p.top {
 
 #onetextwrapbottom {
   margin-top:-20px;
-  width:57%;
+  width:61%;
   background-color:#FBFBFB;
 }
 
@@ -188,7 +187,7 @@ p.top {
 #three {
   position:relative;
   margin:0;
-  background-image:url("../assets/iphonehero3.png");
+  background-image:url("../assets/ipadhero4.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
@@ -208,7 +207,7 @@ p.top {
 #four {
   position:relative;
   margin:0;
-  background-image:url("../assets/iphonehero2.png");
+  background-image:url("../assets/ipadhero5.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
@@ -216,20 +215,20 @@ p.top {
   padding-right:5%;
   padding-top:0;
   background-color:white;
-  height:650px;
+  height:790px;
 }
 
 #fourtextwrap {
   width:39%;
   float:right;
-  margin-top:15%;
+  margin-top:20%;
 }
 
 /*five*/
 #five {
   position:relative;
   margin:0;
-  background-image:url("../assets/iphonehero5.png");
+  background-image:url("../assets/iphonehero3.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
