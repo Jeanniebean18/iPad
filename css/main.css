@@ -1,4 +1,4 @@
-  html {
+html {
   box-sizing: border-box;
 }
 
@@ -8,8 +8,8 @@
 
 body {
   margin:0;
-  
 }
+
 #home {
   position:relative;
   width:980px;
@@ -45,20 +45,17 @@ button {
   padding:1%;
   width:100px;
   height:40px;
-  
   font-family: 'Yantramanav', sans-serif;
   font-size:15px;
   border:1px solid;
   color:#3A3A3A;
   border-radius:5px;
   background-color:white;
-  
 }
 
 button:hover {
   color:white;
   background-color:#C6C6C6;
-  
 }
 
 /*fonts*/
@@ -90,8 +87,14 @@ p {
 p.left {
   text-align:left;
 }
+
 p.right {
   text-align:right;
+}
+
+p.top {
+  margin-top:-5px;
+  margin-bottom:15px;
 }
 
 /*Sections*/
@@ -99,22 +102,56 @@ p.right {
 #one {
   position:relative;
   margin:0;
-/*  border:1px solid red;*/
-  background-image:url("../assets/AppleWatchHero.png");
+  background-image:url("../assets/iphonehero1.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
   padding:2%;
   background-color:#FBFBFB;
-  height:990px;
+  height:1000px;
 }
 
 #onetextwrap {
-  width:55%;
+  position:relative;
+  width:57%;
+}
+
+#onetextwrapleft {
+  float:left;
+  width:17%;
+  margin-top:34%;
+  margin-left:45px;
+}
+
+#onetextwrapright {
+  float:right;
+  width:17%;
+  margin-top:34%;
+  margin-right:45px;
+}
+
+#onesectiontwo {
+  width:100%%;
+  background-color:#FBFBFB;
+}
+
+#onetextwrapbottom {
+  margin-top:-20px;
+  width:57%;
+  background-color:#FBFBFB;
+}
+
+.logo {
+  width:150px;
+}
+
+.logo2 {
+  width:190px;
+  margin-left:-19px;
 }
 
 #logo {
-  width:120px;
+  width:200px;
   left:-5px;
   margin-bottom:-20px;
 }
@@ -122,8 +159,7 @@ p.right {
 #two {
   position:relative;
   margin:0;
-/*  border:1px solid red;*/
-  background-image:url("../assets/AppleWatchHero2.png");
+  background-image:url("../assets/iphonehero4.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
@@ -133,29 +169,38 @@ p.right {
   background-color:white;
   height:700px;
 }
+
 #twotextwrap {
   width:39%;
   float:left;
-  margin-top:8%;
+  margin-top:18%;
+}
+
+.ios9 {
+  position:relative;
+  width:60px;
+  float:right;
+  margin-top:-8px;
+  margin-right:60px;
 }
 
 /*three*/
 #three {
   position:relative;
   margin:0;
-/*  border:1px solid red;*/
-  background-image:url("../assets/AppleWatchHero3.png");
+  background-image:url("../assets/iphonehero3.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
   padding-left:8%;
   padding-right:8%;
   padding-top:.5%;
-  background-color:white;
-  height:600px;
+  background-color:#FBFBFB;
+  height:700px;
 }
+
 #threetextwrap {
-  width:65%;
+  width:70%;
   margin-top:8%;
 }
 
@@ -163,78 +208,94 @@ p.right {
 #four {
   position:relative;
   margin:0;
-  background-image:url("../assets/AppleWatchHero4.png");
+  background-image:url("../assets/iphonehero2.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
   padding-left:5%;
   padding-right:5%;
   padding-top:0;
-  background-color:#FBFBFB;
-  height:500px;
-  
+  background-color:white;
+  height:650px;
 }
+
 #fourtextwrap {
   width:39%;
   float:right;
-  margin-top:9%;
-  
+  margin-top:15%;
 }
 
 /*five*/
 #five {
   position:relative;
   margin:0;
-  background-image:url("../assets/AppleWatchHero5.png");
+  background-image:url("../assets/iphonehero5.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
-  padding-left:5%;
-  padding-right:5%;
-  padding-top:0;
+  padding:2%;
   background-color:#FBFBFB;
-  height:550px;
-  
+  height:920px;
 }
+
 #fivetextwrap {
-  width:37%;
+  width:57%;
+}
+
+#fivetextwrapleft {
   float:left;
-  margin-top:9%;
-  
+  width:17%;
+  margin-top:34%;
+  margin-left:45px;
+}
+
+#fivetextwrapright {
+  float:right;
+  width:17%;
+  margin-top:34%;
+  margin-right:45px;
+}
+
+.logo {
+  width:150px;
+}
+
+.logo2 {
+  width:190px;
+  margin-left:-19px;
 }
 
 /*six*/
 #six {
   position:relative;
   margin:0;
-  background-image:url("../assets/AppleWatchHero6.png");
+  background-image:url("../assets/iphonehero6.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
-  padding-left:5%;
-  padding-right:5%;
-  padding-top:3%;
+  padding:2%;
   background-color:white;
-  height:690px;
-  
-  
+  height:635px;
 }
+
 #sixtextwrap {
-  width:70%;
-  
-  
+  margin-top:4%;
+  width:57%;
 }
 
 #sixtextwrapleft {
-  float:left;
+  position:relative;
   width:17%;
-  margin-top:20%;
-}
-#sixtextwrapright {
-  float:right;
-  width:17%;
-  margin-top:20%;
+
 }
 
+.logo {
+  width:250px;
+}
+
+.logo2 {
+  width:190px;
+  margin-left:-19px;
+}
 
 
