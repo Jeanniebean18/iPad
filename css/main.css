@@ -172,7 +172,7 @@ p.top {
 #twotextwrap {
   width:39%;
   float:left;
-  margin-top:18%;
+  margin-top:28%;
 }
 
 .ios9 {
@@ -257,28 +257,37 @@ p.top {
 #six {
   position:relative;
   margin:0;
-  background-image:url("../assets/iphonehero6.png");
+  background-image:url("../assets/ipadhero8.png");
   background-size: 980px;
   background-position: bottom;
   background-repeat: no-repeat;  
   padding:2%;
-  background-color:white;
-  height:635px;
+  background-color:#FBFBFB;
+  height:1000px;
 }
 
 #sixtextwrap {
-  margin-top:4%;
+  position:relative;
   width:57%;
 }
 
 #sixtextwrapleft {
-  position:relative;
+  float:left;
   width:17%;
-
+  margin-top:34%;
+  margin-left:45px;
 }
 
+#sixtextwrapright {
+  float:right;
+  width:17%;
+  margin-top:34%;
+  margin-right:45px;
+}
+
+
 .logo {
-  width:250px;
+  width:150px;
 }
 
 .logo2 {
