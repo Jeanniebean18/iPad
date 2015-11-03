@@ -1,120 +1,373 @@
 <!doctype html>
-<html>
 
-<head>
-  <title> iPad mini 4 | Nebraska Furniture Mart </title>
-  <!-- META -->
-  <html lang="en">
-  <meta name="viewport" content="initial-scale=1">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link rel="image_src" href="assets/ipadhero3.png"/>
-  <!-- SOCIAL METADATA -->
-  <meta property="og:locale" content="en_US"/>
-  <meta property='fb:admins' content='1499820013'/>
-  <meta property="og:type" content="article"/>
-  <meta property="og:title" content="iPad mini 4 | Nebraska Furniture Mart"/>
-  <meta property="og:description" content="The iPad mini 4 now available at Nebraska Furniture Mart"/>
-  <meta property="og:url" content=""/>
-  <meta property="og:image" content="assets/ipadhero3.png"/>
-  <meta property="og:site_name" content="iPad Mini 4 | Nebraska Furniture Mart"/>
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:creator" content="iPad mini 4 | Nebraska Furniture Mart">
-  <meta name="twitter:title" content="iPad mini 4 | Nebraska Furniture Mart">
-  <meta name="twitter:description" content="The iPad mini 4 now available at Nebraska Furniture Mart">
-  <meta name="twitter:image" content="assets/ipadhero3.png">
-  <!-- MAIN SHARE IMAGE -->
-  <link rel="image_src" href="assets/ipadhero3.png"/>
-  <!-- ICONS -->
-  <link href="assets/favicon.ico" rel="shortcut icon">
-  <!-- STYLESHEETS -->
-  <link rel="stylesheet" type="text/css" media="all" href = "css/main.css" />
-  <!-- FONTS -->
-  <link href='https://fonts.googleapis.com/css?family=Yantramanav:300,500,100' rel='stylesheet' type='text/css'>
-  <!-- body -->
-  <body>
-    <section id="home">
+<style type="text/css">
+#appleipadhome {
+  position:relative;
+  width:980px;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:auto;
+  margin-right:auto;
+
+
+}
+.centerapple {
+  position:relative;
+  margin-right:auto;
+  margin-left:auto;
+  display:block;
+}
+
+/*clear fix*/
+.clearfixapple::after {
+  content:" ";
+  display:table;
+  clear:both;
+}
+
+#applebutton {
+  padding:1.5%;
+  width:100px;
+  font-family: 'Yantramanav', sans-serif;
+  font-size:15px;
+  border:1px solid;
+  color:#3A3A3A;
+  text-decoration:none!important;
+  border-radius:5px;
+  text-align:center;
+}
+
+#applebutton.applebigbutton {
+  padding:5%;
+}
+
+a.applebutton {
+  color:#3A3A3A;
+  text-decoration:none!important;
+  font-family: 'Yantramanav', sans-serif;
+  font-size:15px;
+  text-align:center;
+}
+
+#applebutton:hover {
+  color:white;
+  background-color:#C6C6C6;
+  
+}
+
+/*fonts*/
+h1.appleh1 {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight:100;
+  color:#3A3A3A;
+  font-size:45px;
+  margin-bottom:0;
+  line-height:55px;
+  text-align:center;
+}
+
+h1.appleh1.left {
+  text-align:left;
+}
+h1.appleh1.right {
+  text-align:right;
+}
+
+p.applep {
+  font-family: 'Yantramanav', sans-serif;
+  font-weight:100;
+  color:#3A3A3A;
+  font-size:20px;
+  text-align:center;
+}
+
+p.applep.left {
+  text-align:left;
+}
+p.applep.right {
+  text-align:right;
+}
+
+/*Sections*/
+/*one*/
+#appleone {
+  position:relative;
+  margin:0;
+  background-image:url("ipadhero1.png");
+  background-size: 980px;
+  background-position: bottom;
+  background-repeat: no-repeat;  
+  padding:2%;
+  background-color:#FBFBFB;
+  height:990px;
+}
+
+#onetextwrap {
+  position:relative;
+  width:57%;
+  
+}
+
+#onetextwrapleft {
+  width:17%;
+ 
+}
+
+#onetextwrapright {
+  float:right;
+  width:17%;
+  margin-top:34%;
+  margin-right:45px;
+}
+
+#onesectiontwo {
+  width:100%%;
+  background-color:#FBFBFB;
+}
+
+#onetextwrapbottom {
+  margin-top:-20px;
+  width:61%;
+  background-color:#FBFBFB;
+}
+
+#applelogo {
+  width:300px;
+  left:-12px;
+  margin-bottom:-20px;
+}
+/*two*/
+#appletwo {
+  position:relative;
+  margin:0;
+  background-image:url("ipadhero6.png");
+  background-size: 980px;
+  background-position: bottom;
+  background-repeat: no-repeat;  
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:0;
+  background-color:white;
+  height:820px;
+}
+
+#twotextwrap {
+  width:39%;
+  float:left;
+  margin-top:28%;
+}
+
+.ios9 {
+  position:relative;
+  width:60px;
+  float:right;
+  margin-top:-8px;
+  margin-right:60px;
+}
+
+/*three*/
+#applethree {
+  position:relative;
+  margin:0;
+  background-image:url("ipadhero4.png");
+  background-size: 980px;
+  background-position: bottom;
+  background-repeat: no-repeat;  
+  padding-left:8%;
+  padding-right:8%;
+  padding-top:.5%;
+  background-color:#FBFBFB;
+  height:800px;
+}
+
+#threetextwrap {
+  width:70%;
+  margin-top:8%;
+}
+
+/*four*/
+#applefour {
+  position:relative;
+  margin:0;
+  background-image:url("ipadhero5.png");
+  background-size: 980px;
+  background-position: bottom;
+  background-repeat: no-repeat;  
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:0;
+  background-color:white;
+  height:790px;
+}
+
+#fourtextwrap {
+  width:39%;
+  float:right;
+  margin-top:20%;
+}
+
+/*five*/
+#applefive {
+  position:relative;
+  margin:0;
+  background-image:url("ipadhero7.png");
+  background-size: 980px;
+  background-position: bottom;
+  background-repeat: no-repeat;  
+  padding-left:8%;
+  padding-right:8%;
+  padding-top:.5%;
+  background-color:#FBFBFB;
+  height:800px;
+}
+
+#fivetextwrap {
+  width:70%;
+  margin-top:8%;
+}
+
+
+
+/*six*/
+#applesix {
+  position:relative;
+  margin:0;
+  background-image:url("ipadhero8.png");
+  background-size: 980px;
+  background-position: bottom;
+  background-repeat: no-repeat;  
+  padding:2%;
+  background-color:#FBFBFB;
+  height:1000px;
+  
+}
+
+#sixtextwrap {
+  position:relative;
+  width:57%;
+}
+
+#sixtextwrapleft {
+  float:left;
+  width:17%;
+  margin-top:34%;
+  margin-left:45px;
+}
+
+#sixtextwrapright {
+  float:right;
+  width:17%;
+  margin-top:34%;
+  margin-right:45px;
+}
+
+
+.logoapple {
+  width:150px;
+  margin-bottom:-20px;
+}
+
+.logo2apple {
+  width:190px;
+  margin-left:-19px;
+  margin-bottom:-30px;
+}
+
+</style>
+
+<!-- FONTS -->
+<link href='https://fonts.googleapis.com/css?family=Yantramanav:300,500,100' rel='stylesheet' type='text/css'>
+
+<meta charset="utf-8">
+
+  
+    <section id="appleipadhome">
       <!-- section one -->
-      <section id="one" class="clearfix">
-        <div id="onetextwrap" class="center">
-          <img src="assets/iPad4logo.svg" id="logo" class="center">
-          <h1>Small yet powerful.</h1>
+      <section id="appleone" class="clearfixapple">
+        <div id="onetextwrap" class="centerapple">
+          <img src="iPad4logo.png" id="applelogo" class="centerapple">
+          <h1 class="appleh1">Small yet powerful.</h1>
         </div>
       </section>
       <!-- section one section two -->
       <section id="onesectiontwo">
-        <div id="onetextwrapbottom" class="center">
-          <div id="onetextwrapleft" class="center">
+        <div id="onetextwrapbottom" class="centerapple">
+          <div id="onetextwrapleft" class="centerapple">
             <br>
-            <a href="http://www.nfm.com/list.aspx?dsNav=N:4885-4292227270,Ns:p_is_bestseller|101|-1|#0"> <button class="center"> shop now </button></a>
-          </div>
-          <p> The new iPad mini 4 has a gorgeous 7.9-inch Retina display, yet it's small enough to hold in one hand. It has a powerful A8 chip with 64-bit desktop-class architecture, advanced iSight and FaceTime HD cameras, Wi-Fi and LTE connectivity, iCloud, the breakthrough Touch ID fingerprint sensor, and up to 10 hours of battery life.</p>
+            <a class="applebutton" href="http://www.nfm.com/list.aspx?dsNav=N:4885-4292227270,Ns:p_is_bestseller|101|-1|#0"><div id="applebutton" class="centerapple applebigbutton">
+                shop now
+              </div>
+            </a>
+            </div>
+          <p class="applep"> The new iPad mini 4 has a gorgeous 7.9-inch Retina display, yet it's small enough to hold in one hand. It has a powerful A8 chip with 64-bit desktop-class architecture, advanced iSight and FaceTime HD cameras, Wi-Fi and LTE connectivity, iCloud, the breakthrough Touch ID fingerprint sensor, and up to 10 hours of battery life.</p>
           <br>
         </div>
       </section>
     
       <!-- section four -->
-      <section id="four">
+      <section id="applefour">
         <div id="fourtextwrap" class="center">
-          <h1 class="right"> Smooth and seamless.</h1>
-          <p class="right">
+          <h1 class="appleh1 right"> Smooth and seamless.</h1>
+          <p class="applep right">
             With amazing apps in the App Store made just for iPad, you can do the things you love like never before. iPad mini 4 is powered by an A8 chip with second-generation 64-bit desktop-class architecture. Whether you’re browsing your photos, editing a video, or giving a presentation, your experience will be smooth and seamless. 
           </p>
         </div>
       </section>
     
       <!-- section three -->
-      <section id="three">
-        <div id="threetextwrap" class="center">
-          <h1> A better experience with iOS 9</h1>
-          <p>
+      <section id="applethree" class="clearfixapple">
+        <div id="threetextwrap" class="centerapple">
+          <h1 class="appleh1"> A better experience with iOS 9</h1>
+          <p class="applep">
             iPad mini 4 runs iOS 9, the most intuitive, advanced and secure mobile operating system in the world. If it feels like it was made for iPad, that’s because it was. With major improvements to an already essential set of built-in apps, smarter Siri and search features, and much more, iOS 9 is an experience like no other — on a device like no other. 
 
           </p>
         </div>
       </section>
     <!-- section two -->
-      <section id="two">
-        <div id="twotextwrap" class="center">
-          <h1 class="left">Thin is an <br>understatement</h1>
-          <p class="left">
+      <section id="appletwo" class="clearfixapple">
+        <div id="twotextwrap" class="centerapple">
+          <h1 class="appleh1 left">Thin is an <br>understatement</h1>
+          <p class="applep left">
             iPad mini 4 combines power and portability with a thin 6.1mm design weighing just 0.65 pounds. To say it is thin is an understatement.
           </p>
         </div>
       </section>
   
       <!-- section five -->
-      <section id="five">
-        <div id="fivetextwrap" class="center">
-          <h1> The iPad mini Smart Cover</h1>
-          <p>
+      <section id="applefive" class="clearfixapple">
+        <div id="fivetextwrap" class="centerapple">
+          <h1 class="appleh1"> The iPad mini Smart Cover</h1>
+          <p class="applep">
             The newly designed Smart Cover for iPad mini 4 is constructed from a single piece of polyurethane to protect the front of your device. The Smart Cover automatically wakes your iPad when opened and puts it to sleep when closed. It folds into different positions to create a stand for reading, viewing, typing, or making FaceTime calls. And it’s easy to remove, so you can snap it on and off whenever you want.
 
           </p>
         </div>
       </section>
       <!-- section six -->
-      <section id="six" class="clearfix">
-        <div id="sixtextwrap" class="center">
-          <h1> The iPad mini 4 and Air 2 now available at Nebraska Furniture Mart.</h1>
+      <section id="applesix" class="clearfixapple">
+        <div id="sixtextwrap" class="centerapple">
+          <h1 class="appleh1"> The iPad mini 4 and Air 2 now available at Nebraska Furniture Mart.</h1>
         </div>
       
         <div id="sixtextwrapleft">
-          <img src="assets/ipadair2.svg" id="" class="center logo">
-          <p class="top">9.7-inch display</p>
-          <a href="http://www.nfm.com/list.aspx?dsNav=N:4885-4294842073,Ns:p_is_bestseller|101|-1|,Nrc:id-1000257#0"> <button class="center"> shop now </button></a>
-        </div>
+          <img src="ipadair2.png" id="" class="centerapple logoapple">
+          <p class="applep top">9.7-inch display</p>
+         <a class="applebutton" href="http://www.nfm.com/list.aspx?dsNav=N:4885-4294842073,Ns:p_is_bestseller|101|-1|,Nrc:id-1000257#0"><div id="applebutton" class="centerapple applebigbutton">
+             shop now
+           </div>
+         </a>
+       </div>
       
         <div id="sixtextwrapright">
-          <img src="assets/iPad4logo.svg" id="" class="center logo">
-          <p class="top">7.9-inch display</p>
-          <a href="http://www.nfm.com/list.aspx?dsNav=N:4885-4292227270,Ns:p_is_bestseller|101|-1|#0"> 
-            <button class="center">shop now</button>
+          <img src="iPad4logo.png" id="" class="center logo2apple">
+          <p class="applep top">7.9-inch display</p>
+          
+          <a class="applebutton" href="http://www.nfm.com/list.aspx?dsNav=N:4885-4292227270,Ns:p_is_bestseller|101|-1|,Nrc:id-1000257#0"><div id="applebutton" class="centerapple applebigbutton">
+              shop now
+            </div>
           </a>
-        </div>
+          
       
       </section>
   
